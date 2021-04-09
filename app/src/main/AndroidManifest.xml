@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TodoCheckListWithTwoFragments">
-        <activity android:name=".checklist.MainActivity">
+        <activity android:name=".twofragments.TwoFragmentsActivity"
+            android:configChanges="orientation|screenSize"/>
+        <activity android:name=".checklist.MainActivity"
+            android:configChanges="orientation|screenSize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
